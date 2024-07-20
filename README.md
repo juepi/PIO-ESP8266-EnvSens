@@ -1,5 +1,5 @@
 # Introduction 
-Environmental sensor utilizing the widely available [Bosch BME280 sensor](https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/) based on my [ESP8266 Template](https://github.com/juepi/PIO-ESP8266-Template). The firmware will wake up the ESP after a configurable timespan (`include/generic-config.h`), read out temperature, humidity and air pressure from the BME280, send the values to the MQTT broker and go to sleep again.
+Environmental sensor utilizing the widely available [Bosch BME280 sensor](https://www.bosch-sensortec.com/products/environmental-sensors/humidity-sensors-bme280/) based on my [ESP8266 Template](https://github.com/juepi/PIO-ESP8266-Template). The firmware will wake up the ESP after a configurable timespan (`include/generic-config.h`), read out temperature, humidity and air pressure from the BME280, send the values to the MQTT broker and go to sleep again.  
 I'm using a single 26650 LFP cell for this setup (~11Wh) which lasts about 3-4 months when publishing sensor values every 15 minutes.
 
 ## Requirements
